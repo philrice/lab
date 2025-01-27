@@ -15,7 +15,12 @@ spec:
         app: first-deploy 
     spec:
       containers:
-      - image: httpd
+      - image: httpd:alpine3.17
         name: httpd
         resources: {}
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:  
+      maxUnavailable: 1
+      maxSurge: 1
 status: {}
