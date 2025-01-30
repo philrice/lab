@@ -1,0 +1,21 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/base:debian",
+  "features": {
+      "ghcr.io/devcontainers-contrib/features/neovim-apt-get:1": {}
+  },
+  "onCreateCommand": "sudo chsh -s /usr/bin/bash $USER",
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.profiles.linux": {
+      "bash": {
+        "path": "/usr/bin/bash"
+      }
+    }
+  },
+  "forwardPorts": [
+    8000
+  ]
+}
+
+
+
