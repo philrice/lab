@@ -1,7 +1,8 @@
 {
   "image": "mcr.microsoft.com/devcontainers/base:debian",
   "features": {
-      "ghcr.io/devcontainers-contrib/features/neovim-apt-get:1": {}
+      "ghcr.io/devcontainers-contrib/features/neovim-apt-get:1": {},
+      "ghcr.io/devcontainers-contrib/features/kubectl-asdf:2": {}
   },
   "onCreateCommand": "sudo chsh -s /usr/bin/bash $USER",
   "settings": {
