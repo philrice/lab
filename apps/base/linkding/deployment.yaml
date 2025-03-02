@@ -26,7 +26,7 @@ spec:
               memory: "256Mi"
               cpu: "250m"
 
-          volumemounts:
+          volumeMounts:
             - name: linkding-data
               mountpath: /etc/linkding/data
 
