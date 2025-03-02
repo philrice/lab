@@ -28,7 +28,7 @@ spec:
 
           volumeMounts:
             - name: linkding-data
-              mountpath: /etc/linkding/data
+              mountPath: /etc/linkding/data
 
       volumes:
         - name: linkding-data
