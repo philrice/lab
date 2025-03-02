@@ -25,7 +25,7 @@ Homelab Hosted Applications
         <th>Description</th>
     </tr>
     <tr>
-        <td><img width="32" src="https://github.com/sissbruecker/linkding/assets/logo.svg" height="50"></td>
+        <td><img width="32" src="https://github.com/sissbruecker/linkding/blob/master/assets/logo.svg" height="50"></td>
         <td><a href="https://linkding.link">Linkding</a></td>
         <td>Self hosted bookmark manager</td>
     </tr>
