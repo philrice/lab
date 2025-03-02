@@ -15,7 +15,7 @@ I have the following hardware available for my homelab :
  - APC 650VA 8 Socket UPS 
  - Netgear 8 port Gigabit switch
 
- ### Apps
+## Apps
 
 Homelab Hosted Applications
 <table>
