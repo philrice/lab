@@ -17,12 +17,20 @@ spec:
           image: sissbruecker/linkding:1.31.0
           ports:
             - containerPort: 9090
-          
+
+          resources:
+            limits:
+              memory: "512Mi"
+              cpu: "500m"
+            requests:
+              memory: "256Mi"
+              cpu: "250m"
+
           volumemounts:
             - name: linkding-data
               mountpath: /etc/linkding/data
 
       volumes:
-         - name: linkding-data
-           persistentVolumeClaim:
-             claimName: linkding-data
+        - name: linkding-data
+          persistentVolumeClaim:
+            claimName: linkding-data
