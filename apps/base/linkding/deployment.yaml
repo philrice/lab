@@ -12,17 +12,17 @@ spec:
       labels:
         app: linkding
     spec:
-      containers:
+        containers:
         - name: linkding
           image: sissbruecker/linkding:1.31.0
           ports:
             - containerPort: 9090
           
           volumemounts:
-            - name: linkding-data
-            - mountpath: /etc/linkding/data
+          - name: linkding-data
+          - mountpath: /etc/linkding/data
 
       volumes:
-        - name: linkding-data
-          persistentVolumeClaim:
-            claimName: linkding-data
+      - name: linkding-data
+        persistentVolumeClaim:
+          claimName: linkding-data
