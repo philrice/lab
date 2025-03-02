@@ -13,12 +13,12 @@ spec:
         app: linkding
     spec:
       containers:
-      - name: linkding
-        image: sissbruecker/linkding:1.31.0
-        ports:
-          - containerPort: 9090
+        - name: linkding
+          image: sissbruecker/linkding:1.31.0
+          ports:
+            - containerPort: 9090
           
-        volumemounts:
+      volumemounts:
         - name: linkding-data
         - mountpath: /etc/linkding/data
 
