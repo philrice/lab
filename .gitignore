@@ -1,0 +1,6 @@
+
+# dont commit agekeys
+*.agekey
+
+notes/
+notes/*
