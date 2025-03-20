@@ -34,10 +34,11 @@ spec:
       ingress:
         enabled: true
         ingressClassName: traefik
+
         hosts:
           - grafana.philricelab.uk
-        path: /
-        tls: 
+
+        tls:
           - secretName: grafana-tls-secret
             hosts:
               - grafana.philricelab.uk
