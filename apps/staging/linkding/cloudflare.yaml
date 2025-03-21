@@ -18,7 +18,7 @@ spec:
           args:
             - tunnel
 
-            # Points cloudflared to the config file, which configures what
+            # Points cloudflared to the config file, which configures what TEST
             # cloudflared will actually do. This file is created by a ConfigMap
             # below.
             - --config
