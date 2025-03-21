@@ -27,12 +27,12 @@ spec:
               valueFrom:
                 secretKeyRef:
                   name: ld-admin-user
-                  key: ld-admin-user-name
+                  key: lg-admin-user-name
             - name: LG_SUPERUSER_PASSWORD
               valueFrom:
                 secretKeyRef:
                   name: ld-admin-user
-                  key: ld-admin-user-password
+                  key: lg-admin-user-password
 
           securityContext:
             allowPrivilegeEscalation: false
