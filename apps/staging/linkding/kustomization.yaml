@@ -4,5 +4,4 @@ namespace: linkding
 resources:
   - ../../base/linkding/
   - cloudflare.yaml
-  - sops-tunnel-credentials.yaml
   - lg-admin-user.yaml
