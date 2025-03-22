@@ -1,0 +1,28 @@
+apiVersion: v1
+data:
+    lg-admin-user-name: ENC[AES256_GCM,data:f2xaWUcEuUoXb97W,iv:42COYz8BUD3u03qYbxWOuFeteYVOHICHbzfy+1SruqE=,tag:hx6s/1uS7UJx6kXby0g0OA==,type:str]
+    lg-admin-user-password: ENC[AES256_GCM,data:ZGApV9XgCJqK8W5l/RCRqw==,iv:g7Ag2oJlhv9p1QtpDOwrnL4313B3L8puoxw0oI7UQMk=,tag:t4SWlu4sRUhCntBBYWKBzw==,type:str]
+kind: Secret
+metadata:
+    creationTimestamp: null
+    name: lg-admin-user
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age:
+        - recipient: age1uthksg9985p8p7x8a4rclvqsqj4hx3pn3haxsnw5u908zvfkr9qqln8ps3
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBtYlprTklYWmhyNmkwdjA5
+            MGx0THlHTkdwdUlmSmZubmdVMjhMUnRmUWhNClZUUW1TN2tQVGNOT0xmOU9TWVZW
+            ZlgzVmk2c2ttc2d6cVY3L0MrQ1JoMDAKLS0tIGd0WDV3N3VaUHY5aHA3TE9JSjNo
+            MWFjVXlPSC9qMThOSlNRZGxudDN5eUEKNO0gO28dWRY6VnkhV9WXD2MxkZTf2Vu8
+            Akp9tDKrEFhM0JGPDbxOfYatUSDQIWuSsP7xjPbNxgLcrbxULf9TFQ==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2025-03-22T09:38:48Z"
+    mac: ENC[AES256_GCM,data:CHcy0gax71dZooRuGhdOjhZPhEAQu3oSRfuh4Josm1kAGAmLGRujlQR7qVO6dib0JGymNIldQcmfhSjC+hi6hV9F/DdV1+lGSXj2+sL014shWwf5lRTcisZwTzjl77GS3Oqam082b4V1KTPW2G1lSsPoNJ9b7KR8wwepkX3H1Pc=,iv:QxbB10w4JRWbrEM9C0Zm4JkMCHNiUXDgSfbKoVG9xis=,tag:aHJzEgKMPbpOB3PC+zkFiQ==,type:str]
+    pgp: []
+    encrypted_regex: ^(data|dataString)$
+    version: 3.9.4
