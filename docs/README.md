@@ -15,9 +15,9 @@ I have the following hardware available for my homelab :
  - APC 650VA 8 Socket UPS 
  - Netgear 8 port Gigabit switch
 
-## Apps
+## Homelab Hosted Applications
+The following applications are hosted in my homelab infratructure in my kubernetes cluster:
 
-Homelab Hosted Applications
 <table>
     <tr>
         <th>Logo</th>
@@ -28,5 +28,20 @@ Homelab Hosted Applications
         <td><img width="32" src="https://github.com/sissbruecker/linkding/blob/master/assets/logo.svg" height="50"></td>
         <td><a href="https://linkding.link">Linkding</a></td>
         <td>Self hosted bookmark manager</td>
+    </tr>
+</table>
+
+## Azure Hosted Infrastructure
+The following resources / applications are hosted in my Azure lab subscription:
+<table>
+    <tr>
+        <th>Logo</th>
+        <th>Name</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td><img width="32" src="" height="50"></td>
+        <td><a href="https://www.philrice.me">www.philrice.me Tech Blog</a></td>
+        <td>Personal Tech blog using MkDocs static site generator and  hosted on Azure Static Web Apps</td>
     </tr>
 </table>
