@@ -41,7 +41,7 @@ The following resources / applications are hosted in my Azure lab subscription:
     </tr>
     <tr>
         <td><img width="32" src="" height="50"></td>
-        <td><a href="https://www.philrice.me">www.philrice.me Tech Blog</a></td>
+        <td><a href="https://www.philrice.me">www.philrice.me</a></td>
         <td>Personal Tech blog using MkDocs static site generator and  hosted on Azure Static Web Apps</td>
     </tr>
 </table>
