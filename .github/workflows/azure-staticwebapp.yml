@@ -20,7 +20,6 @@ on:
     types: [opened, synchronize, reopened, closed]
     branches: [ "main" ]
     paths: ['azure-infrastructure/static-web-site-philrice-me/docs/**']
-  workflow_dispatch: 
 
 
 # Environment variables available to all jobs and steps in this workflow
