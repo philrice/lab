@@ -1,0 +1,40 @@
+site_name: Phil Rice - Blog
+site_url: https://philrice.me
+repo_url: https://github.com/philrice/static-web-site-philrice-me
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: orange
+    accent: deep orange
+  font:
+    text: Roboto Mono
+  icon:
+    logo: material/code-tags
+
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.footer
+
+plugins:
+  - search
+  - blog:
+      archive: true
+      blog_dir: .
+      blog_toc: true
+  - search
+  - tags
+nav:
+  - index.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/phildrice
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
