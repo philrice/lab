@@ -1,6 +1,6 @@
 site_name: Phil Rice - Blog
 site_url: https://philrice.me
-repo_url: https://github.com/philrice/static-web-site-philrice-me
+repo_url: https://github.com/philrice/lab/azure-infrastructure/static-web-site-philrice-me
 theme:
   name: material
   palette:
