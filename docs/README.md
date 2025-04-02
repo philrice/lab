@@ -45,3 +45,6 @@ The following resources / applications are hosted in my Azure lab subscription:
         <td>Personal Tech blog using MkDocs static site generator and  hosted on Azure Static Web Apps</td>
     </tr>
 </table>
+
+## Terraform
+Resources are deployed into Azure usnig Terraform and the state file is being stored in an Azure storage account
