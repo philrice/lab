@@ -51,7 +51,7 @@ jobs:
           python3 -m pip install mkdocs-material   # install material theme
       - name: MkDocs Build
         run: |
-         cd azure-infrastructure/static-web-site-philrice-me/
+         cd static-web-site-philrice-me/
 
          mkdocs build
       - name: Build And Deploy
