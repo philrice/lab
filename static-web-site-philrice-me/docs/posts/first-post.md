@@ -22,6 +22,6 @@ Unlikely anyone / many reading this yet but if there is , this is what im workin
 - just updated the action so that it does not commit the builb of the  /site directory to the repo, as not required and we can just build and deploy. Better to not have /site in the repo as ee then need to pull to get in synch and this hinders the workflow.
 - change azure subscription this is hosted on to a different one dedicated to purely homelab and lab deployments - DONE
 <!-- more -->
-... oh yeah, and write some more content ....
+... oh yeah, and write some more content ..
 
 I will probably write an article outlining the whole setup of this static web site, including the CI/CD pipeline, deploying the Azure Static Web app as IaC and how to tweak Mkdocs to get a look that you like.
